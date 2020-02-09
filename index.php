@@ -9,10 +9,10 @@
 
 <table border="1px">
   <tr class="head">
-    <td>Title</td>
-    <td>Artist</td>
-    <td>Genre</td>
-    <td>Writer</td>
+    <th>Title</th>
+    <th>Artist</th>
+    <th>Genre</th>
+    <th>Writer</th>
   </tr>
 <?php
   foreach($list as $value){
