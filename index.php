@@ -2,7 +2,7 @@
  $json = file_get_contents("https://jsonfaus.herokuapp.com/json.php");
 
  $data = json_decode($json,true);
- $list = $data['Books'];
+ $list = $data['Music'];
 ?>
 
 <h1>Top 5 Music in 2020</h1>
