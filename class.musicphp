@@ -10,11 +10,11 @@ class Stocks{
 		}
 	}
 	
-	public function get_stocks(){
-		$sql = "SELECT * FROM tbl_stocks";
+	public function get_music(){
+		$sql = "SELECT * FROM tblmusic";
 		$result = mysqli_query($this->db,$sql);
-		while($row = mysqli_fetch_assoc($result)){
-			$list[] = $row;
+		while($r = mysqli_fetch_assoc($result)){
+			$list[] = $r;
 		}
 		return $list;
 	}
