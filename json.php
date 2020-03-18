@@ -5,7 +5,7 @@
   header('Content-Type: application/json');
 
   $music = new Music();
-  $list=$music->get_Music();
+  $list=$music->get_music();
 
   echo "{\"Music\":";
   echo json_encode($list);
